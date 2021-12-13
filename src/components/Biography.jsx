@@ -1,6 +1,6 @@
 import React              from 'react';
 import Typical from 'react-typical'
-import Photo              from '../asset/static/photo.png';
+import Photo              from '../asset/static/photo.jpeg';
 import '../asset/styles/components/Biography.scss';
 import '../asset/styles/components/Default.scss';
 
