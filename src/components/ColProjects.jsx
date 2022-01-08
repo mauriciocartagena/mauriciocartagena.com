@@ -49,8 +49,9 @@ export const ColProjects = ({
           />
           <Card.Text
             style={{
-              fontFamily: `Merriweather,Georgia,serif`,
+              fontFamily: `Merriweather,Georgia, sans-serif`,
               fontWeight: 400,
+              fontSize: "1.6rem",
               color: "white",
             }}
           >

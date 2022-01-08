@@ -1,22 +1,24 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import CardsProjects from "../components/CardsProjects";
+import acsyos from "../asset/projects/acsyos.png";
+import cosmos from "../asset/projects/cosmos.png";
 
 const Projects = () => {
   const myProjects = [
     {
       number: 1,
-      nameProject: "Name Project 1",
-      linkImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZSLcwBcc0jNAUzTfU-WdAu3RL9K-v2xj1Q&usqp=CAU",
-      description: "Description",
+      nameProject: "ACSYOS",
+      linkImage: acsyos,
+      description:
+        "A web application for the management entry and exit of visitors and vehicles and more.",
     },
     {
       number: 2,
-      nameProject: "Name Project 2",
-      linkImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZSLcwBcc0jNAUzTfU-WdAu3RL9K-v2xj1Q&usqp=CAU",
-      description: "Description",
+      nameProject: "COSMOS",
+      linkImage: cosmos,
+      description:
+        "A web application for the management of the products, partners,videos and more.",
     },
     {
       number: 3,
