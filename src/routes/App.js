@@ -7,6 +7,7 @@ import Resume from "../containers/Resume";
 import Contact from "../containers/Contact";
 import Layout from "../components/Layout";
 import Certificates from "../containers/Certificates";
+import Projects from "../containers/Projects";
 // import NotFound                             from  '../containers/NotFound';
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
         <Route exact path="/resume" component={Resume} />
         <Route extact path="/contact" component={Contact} />
         <Route exact path={"/certificates"} component={Certificates} />
+        <Route exact path={"/projects"} component={Projects} />
         {/* <Route extact path="/blog"      component={Blog}/> */}
         {/* <Route                          component={NotFound}/> */}
       </Switch>

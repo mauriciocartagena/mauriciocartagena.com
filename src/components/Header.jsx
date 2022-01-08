@@ -30,6 +30,7 @@ const Header = () => (
           <Link to="/resources">Resources</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/certificates">Certificates</Link>
+          <Link to="/projects">Projects</Link>
           {/* <Link to="/blog">Blog</Link> */}
         </Nav>
       </Navbar.Collapse>
