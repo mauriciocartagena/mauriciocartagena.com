@@ -5,6 +5,8 @@ import acsyos from "../asset/projects/acsyos.png";
 import cosmos from "../asset/projects/cosmos.png";
 import steven from "../asset/projects/steven.png";
 import journal from "../asset/projects/journal.png";
+import fpotify from "../asset/projects/fpotify.png";
+import calendarApp from "../asset/projects/calendar-app.png";
 
 const Projects = () => {
   const myProjects = [
@@ -34,6 +36,19 @@ const Projects = () => {
       nameProject: "JOURNAL",
       linkImage: journal,
       description: "A web application for the write your tasks during year.",
+    },
+    {
+      number: 5,
+      nameProject: "FPOTIFY",
+      linkImage: fpotify,
+      description: "A mobile application for practice flutter technology.",
+    },
+    {
+      number: 6,
+      nameProject: "CALENDAR-APP",
+      linkImage: calendarApp,
+      description:
+        "A web application to manage the events within a calendar during the year.",
     },
   ];
 
