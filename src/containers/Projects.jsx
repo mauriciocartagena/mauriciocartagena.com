@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import CardsProjects from "../components/CardsProjects";
 import acsyos from "../asset/projects/acsyos.png";
 import cosmos from "../asset/projects/cosmos.png";
+import steven from "../asset/projects/steven.png";
+import journal from "../asset/projects/journal.png";
 
 const Projects = () => {
   const myProjects = [
@@ -22,24 +24,16 @@ const Projects = () => {
     },
     {
       number: 3,
-      nameProject: "Name Project 3",
-      linkImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZSLcwBcc0jNAUzTfU-WdAu3RL9K-v2xj1Q&usqp=CAU",
-      description: "Description",
+      nameProject: "STEVEN",
+      linkImage: steven,
+      description:
+        "A web application for the management of questions and anwers of patients and more.",
     },
     {
       number: 4,
-      nameProject: "Name Project 4",
-      linkImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZSLcwBcc0jNAUzTfU-WdAu3RL9K-v2xj1Q&usqp=CAU",
-      description: "Description",
-    },
-    {
-      number: 5,
-      nameProject: "Name Project 5",
-      linkImage:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZSLcwBcc0jNAUzTfU-WdAu3RL9K-v2xj1Q&usqp=CAU",
-      description: "Description",
+      nameProject: "JOURNAL",
+      linkImage: journal,
+      description: "A web application for the write your tasks during year.",
     },
   ];
 
