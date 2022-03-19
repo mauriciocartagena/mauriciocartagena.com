@@ -1,6 +1,8 @@
 {
-  "homepage": "https://mauriciocartagena.github.io/my-perfil",
-  "name": "my-perfil",
+  "homepage": "https://mauriciocartagena.com",
+  "name": "mauriciocartagena-site",
+  "description": "Personal website for Mauricio Cartagena",
+  "Author": "Mauricio Cartagena",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
