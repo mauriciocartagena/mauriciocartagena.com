@@ -11,6 +11,11 @@ import configuracionLinux from "../asset/certificados-image/prework-linux.webp";
 import productividad from "../asset/certificados-image/productividad.webp";
 import reactRedux from "../asset/certificados-image/react-redux.webp";
 import reactAvanzado from "../asset/certificados-image/reactjs-avanzado.webp";
+import basicoJava from "../asset/certificados-image/basicojavase.webp";
+import en from "../asset/certificados-image/en.webp";
+import inglesPrincipiante from "../asset/certificados-image/ingles-para-principiantes.webp";
+import configuracionEntornoMac from "../asset/certificados-image/prework-configuracion-entorno-mac-.webp";
+
 import ComputerBasicPdf from "../asset/certificates/diploma-computacion-basica.pdf";
 import DesignForDevelopersPdf from "../asset/certificates/diploma-desing-programadores.pdf";
 import GestionTiempoPdf from "../asset/certificates/diploma-gestion-tiempo.pdf";
@@ -23,6 +28,10 @@ import ConfiguracionEntornoWindowsPdf from "../asset/certificates/diploma-prewor
 import ProductividadPdf from "../asset/certificates/diploma-productividad.pdf";
 import ReactAvanzadoPdf from "../asset/certificates/diploma-react-avanzado.pdf";
 import ReactReduxPdf from "../asset/certificates/diploma-react-router-redux.pdf";
+import EstrategiaAprenderInglesPdf from "../asset/certificates/diploma-estrategias-ingles.pdf";
+import InglesPrincipiantesPdf from "../asset/certificates/diploma-ingles-principiantes.pdf";
+import JavaBasicoPdf from "../asset/certificates/diploma-java-basico.pdf";
+import PreworkMacosPdf from "../asset/certificates/diploma-prework-macos.pdf";
 import "../asset/styles/components/Medals.scss";
 import { CardLink } from "./CardLink";
 
@@ -75,6 +84,22 @@ export const MapCertificates = () => {
     {
       image: reactAvanzado,
       pdf: ReactAvanzadoPdf,
+    },
+    {
+      image: en,
+      pdf: EstrategiaAprenderInglesPdf,
+    },
+    {
+      image: inglesPrincipiante,
+      pdf: InglesPrincipiantesPdf,
+    },
+    {
+      image: basicoJava,
+      pdf: JavaBasicoPdf,
+    },
+    {
+      image: configuracionEntornoMac,
+      pdf: PreworkMacosPdf,
     },
   ];
 

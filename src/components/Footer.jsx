@@ -72,7 +72,7 @@ const Footer = () => (
 
           <ul className="copyright">
             <li>&copy; Copyright 2020 Mauricio Cartagena</li>
-            <li> Developer by : Mauricio Cartagena Coria </li>
+            <li> Developer by : Mauricio Cartagena</li>
           </ul>
         </div>
 
