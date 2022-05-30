@@ -17,6 +17,7 @@ import inglesPrincipiante from "../asset/certificados-image/ingles-para-principi
 import configuracionEntornoMac from "../asset/certificados-image/prework-configuracion-entorno-mac-.webp";
 import desarrolloHabitosCrecimientoPersonal from "../asset/certificados-image/desarrollo-habitos-crecimiento-personal-5739b7cc-6340-439a-aa4a-f9bb3a32058d.webp"
 import pooJavaSe from "../asset/certificados-image/poo-java-se.webp"
+import phpLaravel from "../asset/certificados-image/php-laravel.webp"
 
 import ComputerBasicPdf from "../asset/certificates/diploma-computacion-basica.pdf";
 import DesignForDevelopersPdf from "../asset/certificates/diploma-desing-programadores.pdf";
@@ -36,6 +37,7 @@ import JavaBasicoPdf from "../asset/certificates/diploma-java-basico.pdf";
 import PreworkMacosPdf from "../asset/certificates/diploma-prework-macos.pdf";
 import CreacionHabitosPdf from "../asset/certificates/diploma-creacion-habitos.pdf"
 import JavaOopPdf from "../asset/certificates/diploma-java-oop.pdf"
+import PhpLaravelPdf from "../asset/certificates/diploma-curso-php-laravel.pdf"
 
 import "../asset/styles/components/Medals.scss";
 import { CardLink } from "./CardLink";
@@ -114,7 +116,12 @@ export const MapCertificates = () => {
     {
       image: pooJavaSe,
       pdf: JavaOopPdf
+    },
+    {
+      image: phpLaravel,
+      pdf: PhpLaravelPdf
     }
+
   ];
 
   return (
