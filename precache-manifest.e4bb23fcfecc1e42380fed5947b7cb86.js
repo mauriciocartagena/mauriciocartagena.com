@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24b15aae3d97593229f4546707d75396",
+    "revision": "f10c56bb7efb130b800d21089d1a9a83",
     "url": "/index.html"
   },
   {
-    "revision": "3b95803a6c2b399025ef",
+    "revision": "eaf5fbf074a468ce6a65",
     "url": "/static/css/2.3661fc73.chunk.css"
   },
   {
-    "revision": "5f454a284e961ae387f7",
+    "revision": "ee4160ab975dee42e9d2",
     "url": "/static/css/main.88659253.chunk.css"
   },
   {
-    "revision": "3b95803a6c2b399025ef",
-    "url": "/static/js/2.22830276.chunk.js"
+    "revision": "eaf5fbf074a468ce6a65",
+    "url": "/static/js/2.ee7a706e.chunk.js"
   },
   {
     "revision": "9783afb4e0624be302f45b9bf81ea2ae",
-    "url": "/static/js/2.22830276.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ee7a706e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f454a284e961ae387f7",
-    "url": "/static/js/main.6a5837d0.chunk.js"
+    "revision": "ee4160ab975dee42e9d2",
+    "url": "/static/js/main.c5c8b161.chunk.js"
   },
   {
     "revision": "89a68807ba62cc81e0de",
@@ -260,6 +260,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/diploma-creacion-habitos.ceea5c35.pdf"
   },
   {
+    "revision": "bde9dd5e670c689f41ef6c1ef8d11806",
+    "url": "/static/media/diploma-curso-php-laravel.bde9dd5e.pdf"
+  },
+  {
     "revision": "324c45233f119448f2a7e15204cd51c2",
     "url": "/static/media/diploma-desing-programadores.324c4523.pdf"
   },
@@ -466,6 +470,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "37b2e22ac42fc65633c180509b4b380f",
     "url": "/static/media/photo.37b2e22a.jpeg"
+  },
+  {
+    "revision": "71746c7c83422ba883f52854519d3975",
+    "url": "/static/media/php-laravel.71746c7c.webp"
   },
   {
     "revision": "506b320fdee514747ad520e5f9c5c3a4",
