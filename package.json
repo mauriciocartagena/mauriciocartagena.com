@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "dotenv": "^8.2.0",
-    "firebase": "^4.0.0",
+    "firebase": "^3.6.1",
     "http-server": "^14.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@vercel/node": "^3.0.15",
     "gh-pages": "^2.2.0",
     "sass": "^1.45.0"
   },
