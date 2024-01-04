@@ -13,63 +13,38 @@ const Footer = () => (
               </label>
             </div>
             <li>
-              <a
-                href="https://www.facebook.com/Mauricio-Cartagena-102458494729519"
-                target="facebook"
-                rel="noopener"
-              >
+              <a href="https://www.facebook.com/Mauricio-Cartagena-102458494729519" target="facebook" rel="noopener">
                 <i className="fa fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a
-                href="https://twitter.com/mcartagena97"
-                target="twitter"
-                rel="noopener"
-              >
+              <a href="https://twitter.com/mcartagena97" target="twitter" rel="noopener">
                 <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a
-                href="mailto:mcartagenacoria@gmail.com"
-                target="email"
-                rel="noopener"
-              >
+              <a href="mailto:mcartagenacoria@gmail.com" target="email" rel="noopener">
                 <i className="fa fa-envelope"></i>
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/in/mauricio-cartagena-b59454187/"
-                target="linkedin"
-                rel="noopener"
-              >
+              <a href="https://www.linkedin.com/in/mauricio-cartagena-b59454187/" target="linkedin" rel="noopener">
                 <i className="fa fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/mauriciocartagena97/"
-                target="instagram"
-                rel="noopener"
-              >
+              <a href="https://www.instagram.com/mauriciocartagena97/" target="instagram" rel="noopener">
                 <i className="fa fa-instagram"></i>
               </a>
             </li>
             {/* <li><a href="#" target="_blank"><i className="fa fa-dribbble"></i></a></li>
                <li><a href="#" target="_blank"><i className="fa fa-skype"></i></a></li> */}
             <li>
-              <a
-                href="https://github.com/mauriciocartagena"
-                target="github"
-                rel="noopener"
-              >
+              <a href="https://github.com/mauriciocartagena" target="github" rel="noopener">
                 <i className="fa fa-github"></i>
               </a>
             </li>
           </ul>
-
           <ul className="copyright">
             <li>&copy; Copyright 2024 Mauricio Cartagena</li>
             <li> Developer by : Mauricio Cartagena</li>
