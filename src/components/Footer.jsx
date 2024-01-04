@@ -1,6 +1,11 @@
 import React from "react";
 import "../asset/styles/components/Footer.scss";
 
+const getYear = () => {
+  const date = new Date();
+  return date.getFullYear();
+};
+
 const Footer = () => (
   <React.Fragment>
     <footer className="footer">
@@ -46,7 +51,7 @@ const Footer = () => (
             </li>
           </ul>
           <ul className="copyright">
-            <li>&copy; Copyright 2024 Mauricio Cartagena</li>
+            <li>&copy; Copyright {getYear()} Mauricio Cartagena</li>
             <li> Developer by : Mauricio Cartagena</li>
           </ul>
         </div>
